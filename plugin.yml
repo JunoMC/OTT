@@ -1,0 +1,26 @@
+name: OanTuTi
+version: 1.0.4-release
+author: Juno
+website: http://junomc.xyz/
+api-versoion: 1.13
+main: xyz.juno.ott.main.OTT
+
+commands:
+  oantuti:
+    aliases: [ott]
+permissions:
+  ott.*:
+    default: op
+    children:
+      ott.reload:
+        default: false
+      ott.info:
+        default: false
+      ott.invite:
+        default: false
+      ott.help:
+        default: false
+      ott.deny:
+        default: false
+      ott.accept:
+        default: false

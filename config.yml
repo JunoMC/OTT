@@ -1,0 +1,67 @@
+Prefix: '&7[&c&l►&7]'
+
+invite-cooldown: 15
+invite-effect-cooldown: 15
+
+GUI-EDIT:
+  PLAY:
+    TITLE: '&2[&9&lOẲN TÙ TÌ&2] &0%player% &cvs &0%partner%'
+    
+    BUTTON:
+      ACCEPT: '&a&lKHÓA'
+      CANCEL: '&c&lHỦY'
+      
+TextComponent:
+  ACCEPT:
+    name: '&7[&a&lĐỒNG Ý&7]'
+    hover: '&aẤn vào để chấp nhận lời mời'
+    
+  DENY:
+    name: '&7[&c&lTỪ CHỐI&7]'
+    hover: '&cẤn vào để từ chối lời mời'
+      
+messages:
+  must-be-player: '%prefix% &cBạn phải là người chơi để thực hiện lệnh này!'
+  no-permission: '%prefix% &cBạn không có quyền dùng lệnh này'
+  reload-success: '%prefix% &aReload thành công'
+  reload-error: '%prefix% &cCó lỗi khi reload'
+  
+  commands-usage:
+    invite: '&cSử dụng: &f/oantuti [invite, moi] {player} &cđể gửi lời mời tới người chơi!'
+    
+  player-not-found: '%prefix% &f%player% &ckhông online hoặc không tồn tại!'
+  
+  player-is-playing: '%prefix% &f%player% &cđang chơi với một người khác!'
+  
+  can-not-invite-self: '%prefix% &cKhông thể tự mời chính bạn!'
+  
+  wait-to-invite: '%prefix% &cVui lòng chờ &e%time%&c để mời tiếp!'
+  
+  request-sended: '%prefix% &eBạn đã gửi lời mời tới &f%player%'
+  invite-request-to-partner: '%prefix% &f%player% &eđã mời bạn oẳn tù tì! %textcomponent%'
+  
+  denied-success: '%prefix% &cBạn đã từ chối lời mời của &f%partner%'
+  accepted-success: '%prefix% &aBạn đã chấp nhận lời mời của &f%partner%'
+  
+  be-denied-success: '%prefix% &f%partner% &cđã từ chối lời mời của bạn!'
+  be-accepted-success: '%prefix% &f%partner% &ađã chấp nhận lời mời của bạn!'
+  
+  no-request-found: '%prefix% &cKhông thể thực hiện thao tác vì bạn không có lời mời nào!'
+
+  winner-broadcast: '%prefix% &f%winner% &ađã oẳn tù tì thắng &e%losser%'
+  
+  won: '%prefix% &aBạn đã oẳn tù tì thắng &f%losser%'
+  lost: '%prefix% &cBạn đã oẳn tù tì thua &f%winner%'
+  drawn: '%prefix% &f%player% &eđã oẳn tù tì hòa &f%partner%'
+  
+  help:
+  - '&7'
+  - '&f&m                                          '
+  - '&b/{lenh} [help, ?] &7- xem thêm về lệnh, quyền: ''ott.help'''
+  - '&b/{lenh} info &7- xem thông tin plugin, quyền: ''ott.info'''
+  - '&b/{lenh} [reload, rl] &7- nạp lại config, quyền: ''ott.reload'''
+  - '&b/{lenh} [accept, dongy] &7- chấp nhận lời mời, quyền: ''ott.accept'''
+  - '&b/{lenh} [deny, tuchoi] &7- từ chối lời mời, quyền: ''ott.deny'''
+  - '&b/{lenh} [invite, solo, moi] {player} &7- gửi lời mời, quyền: ''ott.invite'''
+  - '&f&m                                          '
+  - '&7'
